@@ -4,4 +4,10 @@ module.exports = function(eleventyConfig) {
    * Copy `assets/` to `_site/assets/`
    */
   eleventyConfig.addPassthroughCopy('assets');
+
+  /**
+   * Global styles
+   * Copy `styles/` to `_site/styles/`
+   */
+   eleventyConfig.addPassthroughCopy('styles');
 };
