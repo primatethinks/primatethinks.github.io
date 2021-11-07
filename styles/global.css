@@ -1,0 +1,28 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Noto Sans';
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+main {
+  flex-grow: 1;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: line-through 1px;
+  background-color: yellow;
+}

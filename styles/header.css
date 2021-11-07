@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+li {
+  display: inline-block;
+  position: relative;
+}
+
+li:first-child {
+  margin-right: 3.2rem;
+}
+
+li:nth-child(2) {
+  margin-right: 5rem;
+  top: -1.5rem;
+}
+
+li:nth-child(3) {
+  margin-right: 2rem;
+  top: -0.8rem;
+}
+
+#logo {
+  font-size: 2.3rem;
+  border-bottom: 1px dashed transparent;
+}
+
+#logo:hover {
+  text-decoration: none;
+  font-size: 2.3rem;
+  border-bottom: 1px dashed transparent;
+  border-color: black;
+  padding-left: 30px;
+  transition: padding 7s ease-out;
+}
